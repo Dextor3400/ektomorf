@@ -35,7 +35,7 @@
                         </li>
                         <li class="nav-item">
                             <a class="nav-link hvrcenter hvr-grow" href="">
-                                MERCH
+                                NEWS
                             </a>
                         </li>
                         <li class="nav-item">
@@ -90,7 +90,7 @@
                 <h1 class="d-lg-none display-4">EKTOMORF</h1>
                 <a class="btn btn-outline-primary btn-lg px-5" href="#" role="button">MORE///</a>
                 <div class="d-none d-md-block d-lg-none" style="height: 100px;"></div>
-                <div class="d-none d-lg-block" style="height: 200px;"></div>
+                <div class="d-none d-xl-block" style="height: 200px;"></div>
         
             </div>
             <div class="container text-white mt-5 d-lg-flex flex-collumn">
@@ -100,22 +100,22 @@
                 </div>
 
                 <div class="d-flex d-flex flex-column justify-content-center align-items-center">
-                    <div class="mt-5 mx-auto mx-md-5">
+                    <div class="mt-4 mx-auto mx-md-4">
                         <iframe width="330" height="205" src="https://www.youtube.com/embed/WOhxEhJ7Eg4"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <div class="mt-5 mx-auto mx-md-5">
+                    <div class="mt-4 mx-auto mx-md-4">
                         <iframe width="330" height="205" src="https://www.youtube.com/embed/yAMXodcypAM"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
                             allowfullscreen></iframe>
                     </div>
                 </div>
                 <div class="d-none d-md-flex flex-column justify-content-center align-items-center">
-                    <div class="mt-5">
+                    <div class="mt-4">
                         <iframe width="330" height="205" src="https://www.youtube.com/embed/eWw2E77aG64"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <div class="mt-5">
+                    <div class="mt-4">
                         <iframe width="330" height="205" src="https://www.youtube.com/embed/N6ylxBUWv_g"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
@@ -131,7 +131,8 @@
                 </h5>
             </a>
         </div>
-        <div class="jumbotron news-jumbotron text-white has-bg-img p-0" style="height: 150vh;">
+        <div class="jumbotron news-jumbotron text-white has-bg-img p-0"
+            style="height: 150vh; background-image: url(/images/news_photo.jpg);">
             <div class="container">
                 <!-------POSTS START------->
                 <h6 class="display-4 my-5">NEWS & UPDATES</h6>
