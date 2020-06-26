@@ -41,7 +41,6 @@ body {
   position: relative;
   overflow: hidden;
   background-color: black;
-  height: 150vh;
 }
 
 .jumbotron .background-video {
@@ -59,5 +58,9 @@ body {
 .jumbotron .container {
   z-index: 2;
   position: relative;
+}
+
+.rounded-pill {
+  border-radius: 1rem;
 }
 /*# sourceMappingURL=style.css.map */
