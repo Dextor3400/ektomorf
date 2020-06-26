@@ -5,7 +5,9 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel='shortcut icon' type='image/x-icon' href='/favicon-32.png' />
     <!-- Bootstrap CSS -->
+    
     <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.css">
     <link rel="stylesheet" href="/css/bootstrap.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -16,7 +18,7 @@
 <body>
     <div class="wrapper-fluid wrapper-navbar">
         <nav class="navbar-dark bg-dark">
-            <div class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark">
                 <a href="/" class="navbar-brand">
                     <img width="40px" height="40px" src="/images/small_logo.png" class="img-fluid" alt="Ektomorf">
                 </a>
@@ -81,7 +83,7 @@
             <video class="background-video" playsinline="playsinline" autoplay="autoplay" muted="muted" loop="loop">
                 <source src="/videos/prophet_of_doom.mp4" type="video/mp4">
             </video>
-        
+            <div class="d-lg-none" style="height: 50px;"></div>
             <div class="container text-white my-sm-5 text-center">
                 <div class="d-none d-lg-block" style="height: 200px;"></div>
                 <h1 class="d-none d-lg-block display-2">EKTOMORF</h1>
@@ -91,32 +93,30 @@
                 <div class="d-none d-lg-block" style="height: 200px;"></div>
         
             </div>
-            <div class="container text-white mt-5 d-md-flex">
+            <div class="container text-white mt-5 d-lg-flex flex-collumn">
                 <div class="mt-5 ">
-                    <h4> Concerts on Youtube!</h4>
+                    <h4> More on Youtube!</h4>
                     <a class="btn btn-outline-primary" href="">Subscribe Now></a>
                 </div>
-                <div>
+
+                <div class="d-flex d-flex flex-column justify-content-center align-items-center">
                     <div class="mt-5 mx-auto mx-md-5">
-                        <iframe width="350" height="205" src="https://www.youtube.com/embed/WOhxEhJ7Eg4" frameborder="0"
+                        <iframe width="330" height="205" src="https://www.youtube.com/embed/WOhxEhJ7Eg4"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="mt-5 mx-auto mx-md-5">
-                        <iframe width="350" height="205" src="https://www.youtube.com/embed/WOhxEhJ7Eg4" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
-                    <div class="d-none d-md-block d-lg-none ml-md-5 mt-5">
-                        <iframe width="350" height="205" src="https://www.youtube.com/embed/eWw2E77aG64" frameborder="0"
-                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <iframe width="330" height="205" src="https://www.youtube.com/embed/yAMXodcypAM"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
                     </div>
                 </div>
-                <div class="d-none d-lg-block">
+                <div class="d-none d-md-flex flex-column justify-content-center align-items-center">
                     <div class="mt-5">
-                        <iframe width="350" height="205" src="https://www.youtube.com/embed/eWw2E77aG64" frameborder="0"
+                        <iframe width="330" height="205" src="https://www.youtube.com/embed/eWw2E77aG64"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     <div class="mt-5">
-                        <iframe width="350" height="205" src="https://www.youtube.com/embed/N6ylxBUWv_g" frameborder="0"
+                        <iframe width="330" height="205" src="https://www.youtube.com/embed/N6ylxBUWv_g"
                             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>           
@@ -156,7 +156,7 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="col-6 col-md-3">
+                    <div class="col-6 col-md-3 mb-3">
                         <a href="">
                             <img class="img-fluid" src="/images/post_photo.jpg" alt="">
                         </a>
@@ -175,7 +175,7 @@
                             </svg>
                         </a>
                     </div>
-                    <div class="col-6 col-md-3">
+                    <div class="col-6 col-md-3 mb-3">
                         <a href="">
                             <img class="img-fluid" src="/images/post_photo.jpg" alt="">
                         </a>
@@ -385,6 +385,9 @@
                 </div>
             </div>
         </div>
+        <footer class="text-center mt-5 pt-5";">
+           Copyright © EKTOMORF 2020
+        </footer>
         
         
     </div>

@@ -1,3 +1,7 @@
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .hvrcenter {
   display: inline-block;
   vertical-align: middle;
@@ -56,9 +60,4 @@
   z-index: 2;
   position: relative;
 }
-
-.news-jumbotron{
-    background-image: url("/images/news_photo.jpg");
-    background-size: cover;
-  }
-
+/*# sourceMappingURL=style.css.map */
